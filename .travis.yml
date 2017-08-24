@@ -6,8 +6,9 @@ python:
   - 2.7
 before_install:
   - pip install -r requirements.txt
-  - pip install .
-script: pytest
+  - python setup.py build
+  - python setup.py install
+script: ./check.sh
 
 deploy:
   provider: pypi
