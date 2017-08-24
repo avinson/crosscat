@@ -5,8 +5,7 @@ dist: trusty
 python:
   - 2.7
 before_install:
- - sudo apt-get install -qq python-matplotlib
- - pip install -r requirements.txt
+ - sudo apt-get install -qq python-numpy python-scipy python-matplotlib
 script: pytest
 
 deploy:
