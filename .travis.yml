@@ -1,0 +1,7 @@
+deploy:
+  provider: pypi
+  user: avinson
+  password:
+    secure: AMiymO5DZnYUStwA0vtNQ5LYTx30RULw/eD/B5axbq018iWEmrQZ+be0aOGQO2IUoAfFCbPG2ZbzheVIVbLj73Dm/S4woCaOZtUX6Nv3krcrbgEc/ARw3KKaSAw/E13ZBR7y+n2K3/yN6sRf78Jm5vA72zh7iV8RapP4XN8orL9F78Jr/rCx8XvE7fVi/y6NQ8f2Z++txoGTJ0Y+czWln6OzpPLCEpWpPnETCiCDmhbfr3JO6rYb6uJaYcjY+Xv3Auo4aqG3qoIm4rs6evNWRPU15YdhJLNhtNsSbehV9CB5HXe9pVaJjzNQAc5zhrRseuesjFzOsqfOwxTarMHAB3WJCzjr0Hp2GYiwyu3t0vw3rqsUPUlJhblvOiPwQpx69pGtowJXSP7gXPphb/yCiyPR6g7a0h7oMqP1WvGxjEG49r4pDF8H+hiHANLzH2gZrj1la10pfrf6TfqliH+9o2FbqPXGvQXJNg5rBK9n9ebB9+HLdqgpErF+1jTGt4b3f4v0qTJ1EkQxLpjGJ+ytVolEkF5VxeQoCGNFwrNfkvzAK/icWhT+KJQDZJ53F4ubd4a4KIpg7NWZtTwa0rcuY3wY/01tvo/iM4qC1o/xRYgC8kQuRwyExQpPU78vq0/AYi4gQhVg/saQMr8lXBPGgPWvh1FyZ8kfaLoS8oGFdW4=
+  on:
+    branch: master
