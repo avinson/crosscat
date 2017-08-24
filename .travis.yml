@@ -4,6 +4,8 @@ dist: trusty
 
 python:
   - 2.7
+virtualenv:
+  system_site_package: true
 before_install:
  - sudo apt-get install -qq python-numpy python-scipy python-matplotlib
 script: pytest
